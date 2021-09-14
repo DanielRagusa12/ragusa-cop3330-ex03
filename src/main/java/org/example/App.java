@@ -1,7 +1,7 @@
 package org.example;
 
 /*
- *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
  *  Copyright 2021 Daniel Ragusa
  */
 
@@ -20,6 +20,8 @@ public class App
         String Author;
         Scanner input2=new Scanner(System.in).useDelimiter("\n");
         Author=input2.next();
-        System.out.println((Author) + " says," + " \"" + (Quote) + "\"");
+
+        String Final=(Author) + " says," + " \"" + (Quote) + "\"";
+        System.out.println(Final);
     }
 }
